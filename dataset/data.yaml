@@ -1,0 +1,13 @@
+train: /home/sree/Desktop/litter_picking_robot/dataset/images/train
+val:   /home/sree/Desktop/litter_picking_robot/dataset/valid/images
+test: ../test/images
+
+nc: 1
+names: ['bottles']
+
+roboflow:
+  workspace: obj-9pb09
+  project: litterpicking-78g06
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/obj-9pb09/litterpicking-78g06/dataset/1
